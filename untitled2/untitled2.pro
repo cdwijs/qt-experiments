@@ -27,12 +27,14 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     fourbuttons.cpp \
-    toplevel.cpp
+    toplevel.cpp \
+    midlevel.cpp
 
 HEADERS += \
         mainwindow.h \
     fourbuttons.h \
-    toplevel.h
+    toplevel.h \
+    midlevel.h
 
 FORMS += \
         mainwindow.ui

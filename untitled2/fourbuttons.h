@@ -11,7 +11,6 @@ class FourButtons : public QWidget
 public:
     explicit FourButtons(QWidget *parent=0);
 private:
-    //QWidget *centralWidget;
     QVBoxLayout *myLayout;
     QSplitter *myTopLine;
     QSplitter *myBotLine;

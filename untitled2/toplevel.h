@@ -5,7 +5,7 @@
 #include <QWidget>
 #include <QObject>
 
-#include "fourbuttons.h"
+#include "midlevel.h"
 
 class TopLevel : public QWidget
 {
@@ -15,8 +15,13 @@ public:
 private:
     QWidget *centralWidget;
     QVBoxLayout *vlayout;
-    FourButtons *myFourButtons;
+    MidLevel *myMidlevel1;
+    MidLevel *myMidlevel2;
+    MidLevel *myMidlevel3;
     QPushButton *myButton;
+
+
+
 };
 
 #endif // TOPLEVEL_H

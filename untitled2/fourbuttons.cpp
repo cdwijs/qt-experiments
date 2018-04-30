@@ -2,7 +2,7 @@
 
 FourButtons::FourButtons(QWidget *parent): QWidget(parent)
 {
-    myLayout = new QVBoxLayout(parent);
+    myLayout = new QVBoxLayout();
     myTopLine = new QSplitter();
     myBotLine = new QSplitter();
     myBtn1 = new QPushButton();
@@ -16,6 +16,4 @@ FourButtons::FourButtons(QWidget *parent): QWidget(parent)
     myLayout->addWidget(myTopLine);
     myLayout->addWidget(myBotLine);
     setLayout(myLayout);
-    //centralWidget->setLayout(myLayout);
-    //centralWidget->show();
 }
