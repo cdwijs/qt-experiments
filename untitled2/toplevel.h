@@ -17,7 +17,6 @@ private:
     QVBoxLayout *vlayout;
     MidLevel *myMidlevel1;
     MidLevel *myMidlevel2;
-    MidLevel *myMidlevel3;
     QPushButton *myButton;
 
 

@@ -17,9 +17,6 @@ private:
     QVBoxLayout *myLayout;
     FourButtons *myFourButtons1;
     FourButtons *myFourButtons2;
-    FourButtons *myFourButtons3;
-    FourButtons *myFourButtons4;
-
 };
 
 #endif // MIDLEVEL_H
